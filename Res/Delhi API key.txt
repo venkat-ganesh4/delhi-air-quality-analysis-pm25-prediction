@@ -1,0 +1,7 @@
+API key:  aqi_h0Y9J67wHp-m1IzaWq0E57qM0SdSXSx2vE-GgWguES0
+
+curl -H "Authorization: Bearer aqi_h0Y9J67w…" \
+  "https://airquality.xkdr.org/v1/meta"
+
+curl -H "Authorization: Bearer aqi_h0Y9J67w…" \
+  "https://airquality.xkdr.org/v1/measurements?city=Delhi&parameter=PM2.5&start=2024-11-01&end=2024-11-30&agg=daily"
